@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7F83514F-0F21-48B2-9015-B3E16A8EE14B}</ProjectGuid>
+    <RootNamespace>Taingine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)/OpenGL/Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/OpenGL/Libraries;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)..\..\bin\Debug\Taingine</OutDir>
+    <IntDir>..\..\..\IntermediateDir</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)/Utility;$(SolutionDir)/OpenGL/Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\..\bin\Debug\Utility;$(SolutionDir)/OpenGL/Libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\bin\Taingine</OutDir>
+    <IncludePath>$(SolutionDir)/OpenGL/Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/OpenGL/Libraries;$(LibraryPath)</LibraryPath>
+    <IntDir>..\..\..\IntermediateDir</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;$(SolutionDir)..\..\bin\Debug\Utility\Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="DisplayManager.cpp" />
+    <ClCompile Include="DuplicateVertex.cpp" />
+    <ClCompile Include="DuplicateVertexNM.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityRenderer.cpp" />
+    <ClCompile Include="FileUtility.cpp" />
+    <ClCompile Include="FontRenderer.cpp" />
+    <ClCompile Include="FontShader.cpp" />
+    <ClCompile Include="FontType.cpp" />
+    <ClCompile Include="getPaths.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="GuiRenderer.cpp" />
+    <ClCompile Include="GuiShader.cpp" />
+    <ClCompile Include="GUIText.cpp" />
+    <ClCompile Include="GuiTexture.cpp" />
+    <ClCompile Include="HeightsGenerator.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="mainGameLoop.cpp" />
+    <ClCompile Include="MasterRenderer.cpp" />
+    <ClCompile Include="Maths.cpp" />
+    <ClCompile Include="MetaFile.cpp" />
+    <ClCompile Include="Mob.cpp" />
+    <ClCompile Include="modelData.cpp" />
+    <ClCompile Include="ModelDataNM.cpp" />
+    <ClCompile Include="ModelTexture.cpp" />
+    <ClCompile Include="MousePicker.cpp" />
+    <ClCompile Include="NormalMappedObjLoader.cpp" />
+    <ClCompile Include="NormalMappingRenderer.cpp" />
+    <ClCompile Include="NormalMappingShader.cpp" />
+    <ClCompile Include="objLoader.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleMaster.cpp" />
+    <ClCompile Include="ParticleRenderer.cpp" />
+    <ClCompile Include="ParticleShader.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="ParticleTexture.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RawModel.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="SkyboxRenderer.cpp" />
+    <ClCompile Include="SkyBoxShader.cpp" />
+    <ClCompile Include="StaticShader.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="TaingineThreads.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TerrainHeights.cpp" />
+    <ClCompile Include="TerrainMaster.cpp" />
+    <ClCompile Include="TerrainRenderer.cpp" />
+    <ClCompile Include="TerrainShader.cpp" />
+    <ClCompile Include="TerrainTexture.cpp" />
+    <ClCompile Include="TerrainTexturePack.cpp" />
+    <ClCompile Include="TextMaster.cpp" />
+    <ClCompile Include="TextMeshCreator.cpp" />
+    <ClCompile Include="TextMeshData.cpp" />
+    <ClCompile Include="TextureData.cpp" />
+    <ClCompile Include="TexturedModel.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="VertexNM.cpp" />
+    <ClCompile Include="WaterFrameBuffers.cpp" />
+    <ClCompile Include="WaterRenderer.cpp" />
+    <ClCompile Include="WaterShader.cpp" />
+    <ClCompile Include="WaterTile.cpp" />
+    <ClCompile Include="Word.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="DisplayManager.h" />
+    <ClInclude Include="DuplicateVertex.h" />
+    <ClInclude Include="DuplicateVertexNM.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityRenderer.h" />
+    <ClInclude Include="ERROR_NOTES.h" />
+    <ClInclude Include="FileUtility.h" />
+    <ClInclude Include="FontRenderer.h" />
+    <ClInclude Include="FontShader.h" />
+    <ClInclude Include="FontType.h" />
+    <ClInclude Include="Game design.h" />
+    <ClInclude Include="getPaths.h" />
+    <ClInclude Include="GuiRenderer.h" />
+    <ClInclude Include="GuiShader.h" />
+    <ClInclude Include="GUIText.h" />
+    <ClInclude Include="GuiTexture.h" />
+    <ClInclude Include="HeightsGenerator.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="MasterRenderer.h" />
+    <ClInclude Include="Maths.h" />
+    <ClInclude Include="MetaFile.h" />
+    <ClInclude Include="Mob.h" />
+    <ClInclude Include="modelData.h" />
+    <ClInclude Include="ModelDataNM.h" />
+    <ClInclude Include="ModelTexture.h" />
+    <ClInclude Include="MousePicker.h" />
+    <ClInclude Include="NormalMappedObjLoader.h" />
+    <ClInclude Include="NormalMappingRenderer.h" />
+    <ClInclude Include="NormalMappingShader.h" />
+    <ClInclude Include="objLoader.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleMaster.h" />
+    <ClInclude Include="ParticleRenderer.h" />
+    <ClInclude Include="ParticleShader.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="ParticleTexture.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="RawModel.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="SkyboxRenderer.h" />
+    <ClInclude Include="SkyBoxShader.h" />
+    <ClInclude Include="StaticShader.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="TaingineThreads.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainHeights.h" />
+    <ClInclude Include="TerrainMaster.h" />
+    <ClInclude Include="TerrainRenderer.h" />
+    <ClInclude Include="TerrainShader.h" />
+    <ClInclude Include="TerrainTexture.h" />
+    <ClInclude Include="TerrainTexturePack.h" />
+    <ClInclude Include="TextMaster.h" />
+    <ClInclude Include="TextMeshCreator.h" />
+    <ClInclude Include="TextMeshData.h" />
+    <ClInclude Include="TextureData.h" />
+    <ClInclude Include="TexturedModel.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="VertexNM.h" />
+    <ClInclude Include="WaterFrameBuffers.h" />
+    <ClInclude Include="WaterRenderer.h" />
+    <ClInclude Include="WaterShader.h" />
+    <ClInclude Include="WaterTile.h" />
+    <ClInclude Include="Word.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fontFragment.txt" />
+    <Text Include="fontVertex.txt" />
+    <Text Include="fragmentShader.txt" />
+    <Text Include="guiFragmentShader.txt" />
+    <Text Include="guiVertexShader.txt" />
+    <Text Include="normalMapFShader.txt" />
+    <Text Include="normalMapVShader.txt" />
+    <Text Include="particleFShader.txt" />
+    <Text Include="particleVShader.txt" />
+    <Text Include="skyboxFragmentShader.txt" />
+    <Text Include="skyboxVertexShader.txt" />
+    <Text Include="terrainFragmentShader.txt" />
+    <Text Include="terrainVertexShader.txt" />
+    <Text Include="vertexShader.txt" />
+    <Text Include="waterFragment.txt" />
+    <Text Include="waterVertex.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,54 @@
+#version 150
+
+in vec2 pass_textureCoordinates;
+in vec3 surfaceNormal;
+in vec3 toLightVector[4]; //this must be the same size as the amount of lights you are using. 
+in vec3 toCameraVector;
+in float visibility;
+
+out vec4 out_Color;
+
+uniform sampler2D modelTexture;
+uniform vec3 lightColour[4]; //this must be the same size as the amount of lights you are using
+uniform vec3 attenuation[4]; //this must be the same size as the amount of lights you are using
+uniform float shineDamper;
+uniform float reflectivity;
+uniform vec3 skyColour;
+
+void main(){
+
+	vec3 unitNormal = normalize(surfaceNormal);
+	vec3 unitVectorToCamera = normalize(toCameraVector);
+
+	vec3 totalDiffuse = vec3(0.0);
+	vec3 totalSpecular = vec3(0.0);
+
+	//IF MORE THAN 4 LIGHTS ARE BEING USED, SORT THEM (MAYBE?) BY ORDER OF DISTANCE FROM THE PLAYER
+	//THEN, LOAD THE CLOSEST 4 LIGHTS
+	//but..... couldnt you just associate lights with entities? so if you are close to a certain point those lights load.
+	//ALSO: CURRENTLY BOTH THIS SHADER AND THE TERRAIN SHADER LOAD LIGHTS REGARDLESS IF THEIR STATE HAS CHANGED OR NOT
+	for(int i = 0; i<4; i++){ 
+		float distance = length(toLightVector[i]); //returns the distance to the light source (gotta do it for all lights..)
+		float attFactor = attenuation[i].x + (attenuation[i].y * distance) + (attenuation[i].z * distance * distance); //x, y, z are actually the three attenuation factors.. 
+		vec3 unitLightVector = normalize(toLightVector[i]); //toLightVector is the distance from the fragment to the light
+		float nDotl = dot(unitNormal, unitLightVector);
+		float brightness = max(nDotl,0.0);
+		vec3 lightDirection = -unitLightVector; //The vector going from the light to the point is simply the opposite of the vector going from the point to the light
+		vec3 reflectedLightDirection = reflect(lightDirection, unitNormal); //This will return the reflection vector of the vector going from the light to the point
+		float specularFactor = dot(reflectedLightDirection, unitVectorToCamera); //This returns how bright the specular light without any dampening should be
+		specularFactor = max(specularFactor, 0.0); //prevents the specularFactor from being lower than zero
+		float dampedFactor = pow(specularFactor, shineDamper); //raising specularFactor by the power of the shineDamper. This makes low specularFactors even lower, but doesnt impact higher specularFactors very much
+		totalDiffuse = totalDiffuse + (brightness * lightColour[i])/attFactor; //dividing by the attFactor gives the dimming effect to the light
+		totalSpecular = totalSpecular + (dampedFactor * reflectivity * lightColour[i])/attFactor; //This is the final specular value
+	}
+	totalDiffuse = max(totalDiffuse, 0.4); //This must be calculated at the end so everything emits its own light (if 0.0 was the lowest then things could render almost black
+	
+	vec4 textureColour = texture(modelTexture,pass_textureCoordinates);
+	if(textureColour.a < 0.5) { //this is meant to take out the black parts of textures so that transparency can be implemented 
+		discard; //so discard the textureColour if its alpha value is less than 0.5 (so black)
+	}
+
+	out_Color = vec4(totalDiffuse, 1.0) * textureColour + vec4(totalSpecular, 1.0);
+	out_Color = mix(vec4(skyColour, 1.0), out_Color, visibility);
+
+}

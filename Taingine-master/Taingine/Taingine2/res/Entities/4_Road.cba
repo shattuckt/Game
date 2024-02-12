@@ -1,0 +1,12 @@
+GRID_OBJECT{
+	connects to road = true
+	north = NONE
+	east = NONE
+	south = NONE
+	west = NONE
+}
+ROAD{
+	roadWidth = 0.45
+	pavementWidth = 0.18
+	roadColour = 0.19;0.22;0.25
+}

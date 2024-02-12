@@ -1,0 +1,56 @@
+#version 400
+
+in vec3 position;
+in vec2 textureCoordinates;
+in vec3 normal;
+
+out vec2 pass_textureCoordinates;
+out vec3 surfaceNormal;
+out vec3 toLightVector[4];  //This is the vector pointing from the point to the light. Note, this is an array of size 4 - the maximum amount of lights an entity can be impacted by.. more lights = slower game
+out vec3 toCameraVector; //this is the vector pointing at the camera
+out float visibility;
+
+uniform mat4 transformationMatrix;
+uniform mat4 projectionMatrix;
+uniform mat4 viewMatrix;
+uniform vec3 lightPosition[4]; //each light needs its own position (change the size of this if you aren't using 4 lights... or x lights..
+
+uniform float useFakeLighting;
+
+uniform float numberOfRows;
+uniform vec2 offset;
+
+const float density = 0.0005;
+const float gradient = 5.0;
+
+uniform vec4 plane;
+
+void main(){
+	
+	vec4 worldPosition = transformationMatrix * vec4(position,1.0);
+
+	gl_ClipDistance[0] = dot(worldPosition, plane); //finds the distance of each vertex from the plan we defined above
+
+	vec4 positionRelativeToCam =  viewMatrix * worldPosition;
+	gl_Position = projectionMatrix * positionRelativeToCam;
+	pass_textureCoordinates = (textureCoordinates/numberOfRows) + offset;
+
+	vec3 actualNormal = normal;
+	if(useFakeLighting > 0.5) {
+		actualNormal = vec3(0.0,1.0,0.0);
+	}
+
+	surfaceNormal = (transformationMatrix * vec4(actualNormal, 0.0)).xyz;
+	for(int i=0; i<4; i++){
+		toLightVector[i] = lightPosition[i] - worldPosition.xyz;
+	}
+	toCameraVector = (inverse(viewMatrix) * vec4(0.0,0.0,0.0,1.0)).xyz - worldPosition.xyz; 
+	//in order to get the camera position, we use the view matrix, which contains a negative version of the camera's position 
+	//subtracting the world position gives us the vector from the vertex to the camera
+
+	float distance = length(positionRelativeToCam.xyz);
+	visibility = exp(-pow((distance*density),gradient));
+	visibility = clamp(visibility, 0.0, 1.0);
+	//visibility = 1; //make sure to rid of this. this makes the fog not work
+}
+

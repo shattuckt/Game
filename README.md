@@ -1,1 +1,1 @@
-# Game
+This is a side project that has been in development off and on for several years. I mostly code in Python for my paid positions, but I do prefer C++. This project was meant to be a gaming engine, but has been collecting dust for quite some time now.

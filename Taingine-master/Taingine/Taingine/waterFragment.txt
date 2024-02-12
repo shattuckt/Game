@@ -1,0 +1,84 @@
+#version 400 core
+
+in vec4 clipSpace;
+in vec2 textureCoords;
+in vec3 toCameraVector;
+in vec3 fromLightVector;
+
+out vec4 out_Color;
+
+uniform sampler2D reflectionTexture;
+uniform sampler2D refractionTexture;
+uniform sampler2D dudvMap; //this is used for the dudv sampler map
+uniform sampler2D normalMap; //this is used for the normal sampler map 
+uniform sampler2D depthMap; //this is used for the depth map 
+uniform vec3 lightColour; //You cant really use normal vectors without also knowing what the light is doing 
+
+uniform float moveFactor; //This will be used to make the water ripple
+
+const float waveStrength = 0.04;
+const float shineDamper = 20.0; //same as our original lighting for the entities 
+const float reflectivity = 0.5; //same as our original lighting for the entities 
+
+void main(void)  {
+	
+	vec2 ndc = (clipSpace.xy/clipSpace.w)/2.0 + 0.5; //This is PERSPECTIVE division. Which converts us from clip space to normalized device space. 
+													//We then divide by 2 and add +5 to convert it to the texture coordinate system. (0,0 being bottom left and 1,1 being top right)
+	vec2 refractTexCoords = vec2(ndc.x, ndc.y);
+	vec2 reflectTexCoords = vec2(ndc.x, -ndc.y);
+	
+	//******* SOFT EDGES *******
+	//the following is the depthMap sampling. note this happens before distortion since we dont want it to be distorted 
+	float near = 0.1;
+	float far = 1000.0;
+	float depth = texture(depthMap, refractTexCoords).r; //the Red component is where all the depth information is stored 
+	float floorDistance = 2.0 * near * far / (far + near - (2.0 * depth - 1.0) * (far - near));
+
+	depth = gl_FragCoord.z;
+	float waterDistance = 2.0 * near * far / (far + near - (2.0 * depth - 1.0) * (far - near)); //same math used as above 
+	float waterDepth = floorDistance - waterDistance;
+
+	//The following creates a distortion variable and then adds it to the above texture coordinates. 
+	//NOTE: You can add as many distortions as you want but obviously it will hinder performance
+	//vec2 distortion1 = (texture(dudvMap, vec2(textureCoords.x + moveFactor, textureCoords.y)).rg * 2.0 - 1.0) * waveStrenth; //we multiply by 2 and subtract 1 to allow for negative/positive vectors 
+	//vec2 distortion2 = (texture(dudvMap, vec2(-textureCoords.x + moveFactor, textureCoords.y + moveFactor)).rg * 2.0 - 1.0) * waveStrenth; //we multiply by 2 and subtract 1 to allow for negative/positive vectors 	
+	//vec2 totalDistortion = distortion1 + distortion2;
+	//*********The above is old code that is not as effecient as the code below
+
+	//The difference is the normal map is sampled once instead of twice like above... 
+	vec2 distortedTexCoords = texture(dudvMap, vec2(textureCoords.x + moveFactor, textureCoords.y)).rg*0.1;
+	distortedTexCoords = textureCoords + vec2(distortedTexCoords.x, distortedTexCoords.y + moveFactor);
+	vec2 totalDistortion = (texture(dudvMap, distortedTexCoords).rg * 2.0 - 1.0) * waveStrength * clamp(waterDepth/20.0, 0.0, 1.0);
+
+																										
+	refractTexCoords += totalDistortion;
+	refractTexCoords = clamp(refractTexCoords, 0.001, 0.999); //this fixes the wavey border issue on the water (see error notes)
+
+	reflectTexCoords += totalDistortion; 
+	reflectTexCoords.x = clamp(reflectTexCoords.x, 0.001, 0.999); 
+	reflectTexCoords.y = clamp(reflectTexCoords.y, -0.999, -0.001); //Reflect must be clamped downward 
+
+	vec4 reflectColour = texture(reflectionTexture, reflectTexCoords); //You can distort these textures by adding values to the parameters before they are mixed (such as + vec2(-0.1, 0.0))
+	vec4 refractColour = texture(refractionTexture, refractTexCoords);
+
+	vec4 normalMapColour = texture(normalMap, distortedTexCoords); //we sample the normal just like we sampled the dudvmap..
+	vec3 normal = vec3(normalMapColour.r * 2.0 - 1.0, normalMapColour.b * 3.0, normalMapColour.g * 2.0 - 1.0); //see error notes for the conversion explanation... NOTE: we mult the b's by 3.0 to make the normals not so crazy - all pointing up in some sense. 
+	normal = normalize(normal);
+
+	vec3 viewVector = normalize(toCameraVector); //we need this to be a unit vector in order to use the dot product on them
+	float refractiveFactor = dot(viewVector, normal); //we currently assume the water is pointing straight up
+	refractiveFactor = pow(refractiveFactor, 0.5); //The higher this number, the more reflective the surface of the water (meaning the more you would have to be over the water to see through it 
+	refractiveFactor = clamp(refractiveFactor, 0.0, 1.0); //this prevents the black artifacts in the water 
+
+	//**********The following is for specular lighting - it is old code recycled from the vertexShader
+	vec3 reflectedLight = reflect(normalize(fromLightVector), normal); //reflect the light off of the normal vector
+	float specular = max(dot(reflectedLight, viewVector), 0.0);
+	specular = pow(specular, shineDamper);
+	vec3 specularHighlights = lightColour * specular * reflectivity * clamp(waterDepth/5.0, 0.0, 1.0);
+
+	out_Color = mix(reflectColour, refractColour, refractiveFactor); //mix the reflection and refraction colors based on the angle the water is being viewed from
+	out_Color = mix(out_Color, vec4(0.0, 0.3, 0.9, 1.0), 0.2) + vec4(specularHighlights, 0.0);
+	//out_Color = normalMapColour; //you dont really want this but it shows how textures are actually mapped
+	//out_Color = vec4(waterDepth / 50.0); //this was used to test that the waterDepth was working... BUT since we have no ground this does really work. its just white lol
+	out_Color.a = clamp(waterDepth/5.0, 0.0, 1.0); //at a depth of 5.0, the water would be solid again
+}

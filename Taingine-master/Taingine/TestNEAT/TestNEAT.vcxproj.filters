@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PrecompileHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MutableGenomeTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SynapseTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NEATUtilityTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBase\GenomeTestBase.cpp" />
+    <ClCompile Include="GenomeTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBase\XORActivationReturn.cpp">
+      <Filter>NeuronClassMembers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBase\XOROutputNeuron.cpp">
+      <Filter>NeuronClassMembers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBase\XOROutputNeuronFactory.cpp">
+      <Filter>NeuronClassMembers\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PrecompileHeaders">
+      <UniqueIdentifier>{92a05fc3-96c9-476c-99df-7b2fd5d29a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutputNeurons">
+      <UniqueIdentifier>{19063423-9ed9-4ce7-9439-02bf07046591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuronClassMembers">
+      <UniqueIdentifier>{5bb0f9f1-99be-4c98-9976-1b26ee366d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuronClassMembers\Header Files">
+      <UniqueIdentifier>{0e574593-b826-420e-a893-d6141c4cb93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuronClassMembers\Source Files">
+      <UniqueIdentifier>{2179c82d-012b-4ee0-af99-8b8eb0d72e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{f9c6277e-3c90-487f-81c3-1a6377bcbdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networks">
+      <UniqueIdentifier>{9aba8cf8-470d-4992-a74e-d1cac3b875ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Networks\XORBasic.nn">
+      <Filter>Networks</Filter>
+    </None>
+    <None Include="Networks\XORComplete.nn">
+      <Filter>Networks</Filter>
+    </None>
+    <None Include="Networks\XORIncompleteFather.nn">
+      <Filter>Networks</Filter>
+    </None>
+    <None Include="Networks\XORIncompleteMother.nn">
+      <Filter>Networks</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PrecompileHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBase\GenomeTestBase.h" />
+    <ClInclude Include="TestBase\XORActivationReturn.h">
+      <Filter>NeuronClassMembers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBase\XOROutputNeuron.h">
+      <Filter>NeuronClassMembers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBase\XOROutputNeuronFactory.h">
+      <Filter>NeuronClassMembers\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

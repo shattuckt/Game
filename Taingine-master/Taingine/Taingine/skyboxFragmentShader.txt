@@ -1,0 +1,25 @@
+#version 150
+
+in vec3 textureCoords;
+out vec4 out_Color;
+
+uniform samplerCube cubeMap;
+uniform samplerCube cubeMap2;                                                     //this second cubemap is for the night cube 
+uniform float blendFactor;                                                        //this will be used to depict how much of each cube map should be appearing 
+uniform vec3 fogColour;                                                           //we need the fog color to blend it with the skybox colour
+
+const float lowerLimit = 0.0;
+const float upperLimit = 30.0; 
+
+
+void main(void){
+	vec4 texture1 = texture(cubeMap, textureCoords);                             //For both cube maps, a factor of 1 or 0 will be used. 0 would be the day texture and 1 would be the night texture 
+    vec4 texture2 = texture(cubeMap2, textureCoords);
+	vec4 finalColour = mix(texture1, texture2, blendFactor);
+
+	                                                                              //The textureCoordinates are the same as the fragment position for this shader... (because the textures are stretched onto each side of the cube equally) 
+	float factor = (textureCoords.y - lowerLimit) / (upperLimit - lowerLimit);    //if factor = 1, use skybox color    if factor = 0, use fog color 
+	factor = clamp(factor, 0.0, 1.0);                                             //ensure the factor value is between zero and one
+
+	out_Color = mix(vec4(fogColour, 1.0), finalColour, factor);                   //mix the fog colour and the fog colour together
+}

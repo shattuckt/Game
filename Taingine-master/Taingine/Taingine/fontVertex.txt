@@ -1,0 +1,18 @@
+#version 330
+
+in vec2 position;
+in vec2 textureCoords;
+
+out vec2 pass_textureCoords;
+
+uniform vec2 translation;
+
+void main(void){
+
+	//currently, the text positions are specified from 0-1. This isn't GL space
+	//vec2(2.0, -2.0) serves to convert the text positions to GL space (which would be -1 to 1)
+
+	gl_Position = vec4(position + translation * vec2(2.0, -2.0), 0.0, 1.0);
+	pass_textureCoords = textureCoords;
+
+}

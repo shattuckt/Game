@@ -1,0 +1,1872 @@
+The value of indice[0] is : 0
+Vertice 0 :1/-1/-1
+      Texture: 0.9999/0.000100017
+      Normal: 0/-1/0
+The value of indice[3] is : 1
+Vertice 3 :1/-1/1
+      Texture: 0.0001/0.000100017
+      Normal: 0/-1/0
+The value of indice[6] is : 2
+Vertice 6 :-1/-1/1
+      Texture: 0.0001/0.9999
+      Normal: 0/-1/0
+The value of indice[9] is : 14
+Vertice 9 :1/1/-0.999999
+      Texture: 0.9999/0.00010097
+      Normal: -0/1/0
+The value of indice[12] is : 22
+Vertice 12 :-1/1/-1
+      Texture: 0.0001/0.000100017
+      Normal: -0/1/0
+The value of indice[15] is : 20
+Vertice 15 :-1/1/1
+      Texture: 0.0001/0.9999
+      Normal: -0/1/0
+The value of indice[18] is : 8
+Vertice 18 :1/-1/-1
+      Texture: 0.9999/0.9999
+      Normal: 1/-0/1e-06
+The value of indice[21] is : 4
+Vertice 21 :1/1/-0.999999
+      Texture: 0.9999/0.00010097
+      Normal: 1/-0/1e-06
+The value of indice[24] is : 5
+Vertice 24 :0.999999/1/1
+      Texture: 0.0001/0.000100017
+      Normal: 1/-0/1e-06
+The value of indice[27] is : 11
+Vertice 27 :1/-1/1
+      Texture: 0.9999/0.9999
+      Normal: -0/-0/1
+The value of indice[30] is : 19
+Vertice 30 :0.999999/1/1
+      Texture: 0.9999/0.000100017
+      Normal: -0/-0/1
+The value of indice[33] is : 16
+Vertice 33 :-1/-1/1
+      Texture: 0.0001/0.9999
+      Normal: -0/-0/1
+The value of indice[36] is : 17
+Vertice 36 :-1/-1/1
+      Texture: 0.0001/0.000100017
+      Normal: -1/-0/-0
+The value of indice[39] is : 21
+Vertice 39 :-1/1/1
+      Texture: 0.0001/0.9999
+      Normal: -1/-0/-0
+The value of indice[42] is : 12
+Vertice 42 :-1/-1/-1
+      Texture: 0.9999/0.000100017
+      Normal: -1/-0/-0
+The value of indice[45] is : 15
+Vertice 45 :1/1/-0.999999
+      Texture: 0.9999/0.9999
+      Normal: 0/0/-1
+The value of indice[48] is : 9
+Vertice 48 :1/-1/-1
+      Texture: 0.9999/0.000100017
+      Normal: 0/0/-1
+The value of indice[51] is : 13
+Vertice 51 :-1/-1/-1
+      Texture: 0.0001/0.000100017
+      Normal: 0/0/-1
+The value of indice[54] is : 28
+Vertice 54 :0.817221/1.09572/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[57] is : 29
+Vertice 57 :0.817221/1.09572/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[60] is : 24
+Vertice 60 :0.817221/0.889117/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[63] is : 34
+Vertice 63 :0.817221/1.09572/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[66] is : 30
+Vertice 66 :1.04823/1.09572/-1.0994
+      Texture: 0.556902/0.603696
+      Normal: 0/0/-1
+The value of indice[69] is : 26
+Vertice 69 :1.04823/0.889117/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[72] is : 40
+Vertice 72 :1.04823/1.09572/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[75] is : 31
+Vertice 75 :1.04823/1.09572/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[78] is : 27
+Vertice 78 :1.04823/0.889117/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[81] is : 44
+Vertice 81 :1.04823/1.09572/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[84] is : 32
+Vertice 84 :0.817221/1.09572/1.0994
+      Texture: 0.453234/0.510979
+      Normal: -0/-0/1
+The value of indice[87] is : 38
+Vertice 87 :0.817221/0.889117/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[90] is : 39
+Vertice 90 :0.817221/0.889117/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[93] is : 37
+Vertice 93 :0.817221/0.889117/-1.0994
+      Texture: 0.999967/0.999622
+      Normal: 0/-1/0
+The value of indice[96] is : 43
+Vertice 96 :1.04823/0.889117/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[99] is : 45
+Vertice 99 :1.04823/1.09572/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[102] is : 41
+Vertice 102 :1.04823/1.09572/-1.0994
+      Texture: 0.999968/0.999967
+      Normal: -0/1/0
+The value of indice[105] is : 35
+Vertice 105 :0.817221/1.09572/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[108] is : 52
+Vertice 108 :-1.09955/1.09572/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[111] is : 53
+Vertice 111 :-1.09955/1.09572/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[114] is : 48
+Vertice 114 :-1.09955/0.889117/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[117] is : 58
+Vertice 117 :-1.09955/1.09572/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[120] is : 54
+Vertice 120 :-0.86854/1.09572/-1.0994
+      Texture: 0.556902/0.603696
+      Normal: 0/0/-1
+The value of indice[123] is : 50
+Vertice 123 :-0.86854/0.889117/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[126] is : 64
+Vertice 126 :-0.86854/1.09572/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[129] is : 55
+Vertice 129 :-0.86854/1.09572/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[132] is : 51
+Vertice 132 :-0.86854/0.889117/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[135] is : 68
+Vertice 135 :-0.86854/1.09572/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[138] is : 56
+Vertice 138 :-1.09955/1.09572/1.0994
+      Texture: 0.453234/0.510979
+      Normal: -0/-0/1
+The value of indice[141] is : 62
+Vertice 141 :-1.09955/0.889117/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[144] is : 63
+Vertice 144 :-1.09955/0.889117/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[147] is : 61
+Vertice 147 :-1.09955/0.889117/-1.0994
+      Texture: 0.999967/0.999622
+      Normal: 0/-1/0
+The value of indice[150] is : 67
+Vertice 150 :-0.86854/0.889117/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[153] is : 69
+Vertice 153 :-0.86854/1.09572/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[156] is : 65
+Vertice 156 :-0.86854/1.09572/-1.0994
+      Texture: 0.999968/0.999967
+      Normal: -0/1/0
+The value of indice[159] is : 59
+Vertice 159 :-1.09955/1.09572/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[162] is : 76
+Vertice 162 :-1.09955/-0.857969/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[165] is : 77
+Vertice 165 :-1.09955/-0.857969/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[168] is : 72
+Vertice 168 :-1.09955/-1.06458/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[171] is : 82
+Vertice 171 :-1.09955/-0.857969/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[174] is : 78
+Vertice 174 :-0.86854/-0.857969/-1.0994
+      Texture: 0.556902/0.603696
+      Normal: 0/0/-1
+The value of indice[177] is : 74
+Vertice 177 :-0.86854/-1.06458/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[180] is : 88
+Vertice 180 :-0.86854/-0.857969/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[183] is : 79
+Vertice 183 :-0.86854/-0.857969/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[186] is : 75
+Vertice 186 :-0.86854/-1.06458/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[189] is : 92
+Vertice 189 :-0.86854/-0.857969/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[192] is : 80
+Vertice 192 :-1.09955/-0.857969/1.0994
+      Texture: 0.453234/0.510979
+      Normal: -0/-0/1
+The value of indice[195] is : 86
+Vertice 195 :-1.09955/-1.06458/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[198] is : 87
+Vertice 198 :-1.09955/-1.06458/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[201] is : 85
+Vertice 201 :-1.09955/-1.06458/-1.0994
+      Texture: 0.999967/0.999622
+      Normal: 0/-1/0
+The value of indice[204] is : 91
+Vertice 204 :-0.86854/-1.06458/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[207] is : 93
+Vertice 207 :-0.86854/-0.857969/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[210] is : 89
+Vertice 210 :-0.86854/-0.857969/-1.0994
+      Texture: 0.999968/0.999967
+      Normal: -0/1/0
+The value of indice[213] is : 83
+Vertice 213 :-1.09955/-0.857969/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[216] is : 100
+Vertice 216 :0.843538/-0.857969/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[219] is : 101
+Vertice 219 :0.843538/-0.857969/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[222] is : 96
+Vertice 222 :0.843538/-1.06458/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[225] is : 106
+Vertice 225 :0.843538/-0.857969/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[228] is : 102
+Vertice 228 :1.07455/-0.857969/-1.0994
+      Texture: 0.556902/0.603696
+      Normal: 0/0/-1
+The value of indice[231] is : 98
+Vertice 231 :1.07455/-1.06458/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[234] is : 112
+Vertice 234 :1.07455/-0.857969/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[237] is : 103
+Vertice 237 :1.07455/-0.857969/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[240] is : 99
+Vertice 240 :1.07455/-1.06458/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[243] is : 116
+Vertice 243 :1.07455/-0.857969/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[246] is : 104
+Vertice 246 :0.843538/-0.857969/1.0994
+      Texture: 0.453234/0.510979
+      Normal: -0/-0/1
+The value of indice[249] is : 110
+Vertice 249 :0.843538/-1.06458/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[252] is : 111
+Vertice 252 :0.843538/-1.06458/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[255] is : 109
+Vertice 255 :0.843538/-1.06458/-1.0994
+      Texture: 0.999967/0.999622
+      Normal: 0/-1/0
+The value of indice[258] is : 115
+Vertice 258 :1.07455/-1.06458/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[261] is : 117
+Vertice 261 :1.07455/-0.857969/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[264] is : 113
+Vertice 264 :1.07455/-0.857969/-1.0994
+      Texture: 0.999968/0.999967
+      Normal: -0/1/0
+The value of indice[267] is : 107
+Vertice 267 :0.843538/-0.857969/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[270] is : 124
+Vertice 270 :0.821949/1.00499/-1.07482
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[273] is : 125
+Vertice 273 :0.821949/-0.993528/-1.07482
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[276] is : 120
+Vertice 276 :0.821949/1.00499/-0.868209
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[279] is : 130
+Vertice 279 :0.821949/-0.993528/-1.07482
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[282] is : 126
+Vertice 282 :1.05296/-0.993528/-1.07482
+      Texture: 0.556902/0.603696
+      Normal: 0/-1/0
+The value of indice[285] is : 122
+Vertice 285 :1.05296/-0.993528/-0.868209
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[288] is : 136
+Vertice 288 :1.05296/-0.993528/-1.07482
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[291] is : 127
+Vertice 291 :1.05296/1.00499/-1.07482
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[294] is : 123
+Vertice 294 :1.05296/1.00499/-0.868209
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[297] is : 140
+Vertice 297 :1.05296/1.00499/-1.07482
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[300] is : 128
+Vertice 300 :0.821949/1.00499/-1.07482
+      Texture: 0.453234/0.510979
+      Normal: -0/1/0
+The value of indice[303] is : 134
+Vertice 303 :0.821949/1.00499/-0.868209
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[306] is : 135
+Vertice 306 :0.821949/1.00499/-0.868209
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[309] is : 133
+Vertice 309 :0.821949/-0.993528/-0.868209
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[312] is : 139
+Vertice 312 :1.05296/-0.993528/-0.868209
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[315] is : 141
+Vertice 315 :1.05296/1.00499/-1.07482
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[318] is : 137
+Vertice 318 :1.05296/-0.993528/-1.07482
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[321] is : 131
+Vertice 321 :0.821949/-0.993528/-1.07482
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[324] is : 148
+Vertice 324 :-1.1038/1.00499/-1.07482
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[327] is : 149
+Vertice 327 :-1.1038/-0.993528/-1.07482
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[330] is : 144
+Vertice 330 :-1.1038/1.00499/-0.868209
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[333] is : 154
+Vertice 333 :-1.1038/-0.993528/-1.07482
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[336] is : 150
+Vertice 336 :-0.872797/-0.993528/-1.07482
+      Texture: 0.556902/0.603696
+      Normal: 0/-1/0
+The value of indice[339] is : 146
+Vertice 339 :-0.872797/-0.993528/-0.868209
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[342] is : 160
+Vertice 342 :-0.872797/-0.993528/-1.07482
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[345] is : 151
+Vertice 345 :-0.872797/1.00499/-1.07482
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[348] is : 147
+Vertice 348 :-0.872797/1.00499/-0.868209
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[351] is : 164
+Vertice 351 :-0.872797/1.00499/-1.07482
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[354] is : 152
+Vertice 354 :-1.1038/1.00499/-1.07482
+      Texture: 0.453234/0.510979
+      Normal: -0/1/0
+The value of indice[357] is : 158
+Vertice 357 :-1.1038/1.00499/-0.868209
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[360] is : 159
+Vertice 360 :-1.1038/1.00499/-0.868209
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[363] is : 157
+Vertice 363 :-1.1038/-0.993528/-0.868209
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[366] is : 163
+Vertice 366 :-0.872797/-0.993528/-0.868209
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[369] is : 165
+Vertice 369 :-0.872797/1.00499/-1.07482
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[372] is : 161
+Vertice 372 :-0.872797/-0.993528/-1.07482
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[375] is : 155
+Vertice 375 :-1.1038/-0.993528/-1.07482
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[378] is : 172
+Vertice 378 :-1.1038/1.00499/0.852634
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[381] is : 173
+Vertice 381 :-1.1038/-0.993528/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[384] is : 168
+Vertice 384 :-1.1038/1.00499/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[387] is : 178
+Vertice 387 :-1.1038/-0.993528/0.852634
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[390] is : 174
+Vertice 390 :-0.872797/-0.993528/0.852634
+      Texture: 0.556902/0.603696
+      Normal: 0/-1/0
+The value of indice[393] is : 170
+Vertice 393 :-0.872797/-0.993528/1.05924
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[396] is : 184
+Vertice 396 :-0.872797/-0.993528/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[399] is : 175
+Vertice 399 :-0.872797/1.00499/0.852634
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[402] is : 171
+Vertice 402 :-0.872797/1.00499/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[405] is : 188
+Vertice 405 :-0.872797/1.00499/0.852634
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[408] is : 176
+Vertice 408 :-1.1038/1.00499/0.852634
+      Texture: 0.453234/0.510979
+      Normal: -0/1/0
+The value of indice[411] is : 182
+Vertice 411 :-1.1038/1.00499/1.05924
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[414] is : 183
+Vertice 414 :-1.1038/1.00499/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[417] is : 181
+Vertice 417 :-1.1038/-0.993528/1.05924
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[420] is : 187
+Vertice 420 :-0.872797/-0.993528/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[423] is : 189
+Vertice 423 :-0.872797/1.00499/0.852634
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[426] is : 185
+Vertice 426 :-0.872797/-0.993528/0.852634
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[429] is : 179
+Vertice 429 :-1.1038/-0.993528/0.852634
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[432] is : 196
+Vertice 432 :0.856109/1.00499/0.852634
+      Texture: 3.1e-05/0.999969
+      Normal: -1/-0/-0
+The value of indice[435] is : 197
+Vertice 435 :0.856109/-0.993528/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[438] is : 192
+Vertice 438 :0.856109/1.00499/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[441] is : 202
+Vertice 441 :0.856109/-0.993528/0.852634
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[444] is : 198
+Vertice 444 :1.08712/-0.993528/0.852634
+      Texture: 0.556902/0.603696
+      Normal: 0/-1/0
+The value of indice[447] is : 194
+Vertice 447 :1.08712/-0.993528/1.05924
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[450] is : 208
+Vertice 450 :1.08712/-0.993528/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[453] is : 199
+Vertice 453 :1.08712/1.00499/0.852634
+      Texture: 3.1e-05/0.906011
+      Normal: 1/-0/0
+The value of indice[456] is : 195
+Vertice 456 :1.08712/1.00499/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[459] is : 212
+Vertice 459 :1.08712/1.00499/0.852634
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[462] is : 200
+Vertice 462 :0.856109/1.00499/0.852634
+      Texture: 0.453234/0.510979
+      Normal: -0/1/0
+The value of indice[465] is : 206
+Vertice 465 :0.856109/1.00499/1.05924
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[468] is : 207
+Vertice 468 :0.856109/1.00499/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[471] is : 205
+Vertice 471 :0.856109/-0.993528/1.05924
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[474] is : 211
+Vertice 474 :1.08712/-0.993528/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[477] is : 213
+Vertice 477 :1.08712/1.00499/0.852634
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[480] is : 209
+Vertice 480 :1.08712/-0.993528/0.852634
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[483] is : 203
+Vertice 483 :0.856109/-0.993528/0.852634
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[486] is : 220
+Vertice 486 :0.95663/1.1055/0.852634
+      Texture: 3.1e-05/0.999969
+      Normal: -0/1/0
+The value of indice[489] is : 221
+Vertice 489 :-1.04188/1.1055/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[492] is : 216
+Vertice 492 :0.95663/1.1055/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[495] is : 226
+Vertice 495 :-1.04188/1.1055/0.852634
+      Texture: 0.443098/0.603696
+      Normal: -1/1e-06/0
+The value of indice[498] is : 222
+Vertice 498 :-1.04188/0.874487/0.852634
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[501] is : 228
+Vertice 501 :-1.04188/1.1055/1.05924
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[504] is : 232
+Vertice 504 :-1.04188/0.874487/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[507] is : 223
+Vertice 507 :0.95663/0.874487/0.852634
+      Texture: 3.1e-05/0.906011
+      Normal: 0/-1/0
+The value of indice[510] is : 219
+Vertice 510 :0.95663/0.874487/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[513] is : 236
+Vertice 513 :0.95663/0.874487/0.852634
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[516] is : 224
+Vertice 516 :0.95663/1.1055/0.852634
+      Texture: 0.453234/0.510979
+      Normal: 1/-0/0
+The value of indice[519] is : 230
+Vertice 519 :0.95663/1.1055/1.05924
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[522] is : 231
+Vertice 522 :0.95663/1.1055/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[525] is : 229
+Vertice 525 :-1.04188/1.1055/1.05924
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[528] is : 235
+Vertice 528 :-1.04188/0.874487/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[531] is : 237
+Vertice 531 :0.95663/0.874487/0.852634
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[534] is : 233
+Vertice 534 :-1.04188/0.874487/0.852634
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[537] is : 225
+Vertice 537 :0.95663/1.1055/0.852634
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[540] is : 244
+Vertice 540 :0.95663/-0.813067/0.852634
+      Texture: 3.1e-05/0.999969
+      Normal: -0/1/0
+The value of indice[543] is : 245
+Vertice 543 :-1.04188/-0.813067/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[546] is : 240
+Vertice 546 :0.95663/-0.813067/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[549] is : 250
+Vertice 549 :-1.04188/-0.813067/0.852634
+      Texture: 0.443098/0.603696
+      Normal: -1/1e-06/0
+The value of indice[552] is : 246
+Vertice 552 :-1.04188/-1.04408/0.852634
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[555] is : 252
+Vertice 555 :-1.04188/-0.813067/1.05924
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[558] is : 256
+Vertice 558 :-1.04188/-1.04408/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[561] is : 247
+Vertice 561 :0.95663/-1.04408/0.852634
+      Texture: 3.1e-05/0.906011
+      Normal: 0/-1/0
+The value of indice[564] is : 243
+Vertice 564 :0.95663/-1.04408/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[567] is : 260
+Vertice 567 :0.95663/-1.04408/0.852634
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[570] is : 248
+Vertice 570 :0.95663/-0.813067/0.852634
+      Texture: 0.453234/0.510979
+      Normal: 1/-0/0
+The value of indice[573] is : 254
+Vertice 573 :0.95663/-0.813067/1.05924
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[576] is : 255
+Vertice 576 :0.95663/-0.813067/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[579] is : 253
+Vertice 579 :-1.04188/-0.813067/1.05924
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[582] is : 259
+Vertice 582 :-1.04188/-1.04408/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[585] is : 261
+Vertice 585 :0.95663/-1.04408/0.852634
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[588] is : 257
+Vertice 588 :-1.04188/-1.04408/0.852634
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[591] is : 249
+Vertice 591 :0.95663/-0.813067/0.852634
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[594] is : 268
+Vertice 594 :0.95663/-0.813067/-1.04513
+      Texture: 3.1e-05/0.999969
+      Normal: -0/1/0
+The value of indice[597] is : 269
+Vertice 597 :-1.04188/-0.813067/-1.04513
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[600] is : 264
+Vertice 600 :0.95663/-0.813067/-0.838523
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[603] is : 274
+Vertice 603 :-1.04188/-0.813067/-1.04513
+      Texture: 0.443098/0.603696
+      Normal: -1/1e-06/0
+The value of indice[606] is : 270
+Vertice 606 :-1.04188/-1.04408/-1.04513
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[609] is : 276
+Vertice 609 :-1.04188/-0.813067/-0.838523
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[612] is : 280
+Vertice 612 :-1.04188/-1.04408/-1.04513
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[615] is : 271
+Vertice 615 :0.95663/-1.04408/-1.04513
+      Texture: 3.1e-05/0.906011
+      Normal: 0/-1/0
+The value of indice[618] is : 267
+Vertice 618 :0.95663/-1.04408/-0.838523
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[621] is : 284
+Vertice 621 :0.95663/-1.04408/-1.04513
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[624] is : 272
+Vertice 624 :0.95663/-0.813067/-1.04513
+      Texture: 0.453234/0.510979
+      Normal: 1/-0/0
+The value of indice[627] is : 278
+Vertice 627 :0.95663/-0.813067/-0.838523
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[630] is : 279
+Vertice 630 :0.95663/-0.813067/-0.838523
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[633] is : 277
+Vertice 633 :-1.04188/-0.813067/-0.838523
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[636] is : 283
+Vertice 636 :-1.04188/-1.04408/-0.838523
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[639] is : 285
+Vertice 639 :0.95663/-1.04408/-1.04513
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[642] is : 281
+Vertice 642 :-1.04188/-1.04408/-1.04513
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[645] is : 275
+Vertice 645 :-1.04188/-0.813067/-1.04513
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[648] is : 292
+Vertice 648 :0.95663/1.07517/-1.04513
+      Texture: 3.1e-05/0.999969
+      Normal: -0/1/0
+The value of indice[651] is : 293
+Vertice 651 :-1.04188/1.07517/-1.04513
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[654] is : 288
+Vertice 654 :0.95663/1.07517/-0.838523
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[657] is : 298
+Vertice 657 :-1.04188/1.07517/-1.04513
+      Texture: 0.443098/0.603696
+      Normal: -1/1e-06/0
+The value of indice[660] is : 294
+Vertice 660 :-1.04188/0.844157/-1.04513
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[663] is : 300
+Vertice 663 :-1.04188/1.07517/-0.838523
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[666] is : 304
+Vertice 666 :-1.04188/0.844157/-1.04513
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[669] is : 295
+Vertice 669 :0.95663/0.844157/-1.04513
+      Texture: 3.1e-05/0.906011
+      Normal: 0/-1/0
+The value of indice[672] is : 291
+Vertice 672 :0.95663/0.844157/-0.838523
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[675] is : 308
+Vertice 675 :0.95663/0.844157/-1.04513
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[678] is : 296
+Vertice 678 :0.95663/1.07517/-1.04513
+      Texture: 0.453234/0.510979
+      Normal: 1/-0/0
+The value of indice[681] is : 302
+Vertice 681 :0.95663/1.07517/-0.838523
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[684] is : 303
+Vertice 684 :0.95663/1.07517/-0.838523
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[687] is : 301
+Vertice 687 :-1.04188/1.07517/-0.838523
+      Texture: 0.999967/0.999622
+      Normal: -0/-0/1
+The value of indice[690] is : 307
+Vertice 690 :-1.04188/0.844157/-0.838523
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[693] is : 309
+Vertice 693 :0.95663/0.844157/-1.04513
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[696] is : 305
+Vertice 696 :-1.04188/0.844157/-1.04513
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[699] is : 299
+Vertice 699 :-1.04188/1.07517/-1.04513
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[702] is : 3
+Vertice 702 :-1/-1/-1
+      Texture: 0.9999/0.9999
+      Normal: 0/-1/0
+The value of indice[705] is : 0
+Vertice 705 :1/-1/-1
+      Texture: 0.9999/0.000100017
+      Normal: 0/-1/0
+The value of indice[708] is : 2
+Vertice 708 :-1/-1/1
+      Texture: 0.0001/0.9999
+      Normal: 0/-1/0
+The value of indice[711] is : 18
+Vertice 711 :0.999999/1/1
+      Texture: 0.999899/0.9999
+      Normal: -0/1/0
+The value of indice[714] is : 14
+Vertice 714 :1/1/-0.999999
+      Texture: 0.9999/0.00010097
+      Normal: -0/1/0
+The value of indice[717] is : 20
+Vertice 717 :-1/1/1
+      Texture: 0.0001/0.9999
+      Normal: -0/1/0
+The value of indice[720] is : 10
+Vertice 720 :1/-1/1
+      Texture: 0.0001/0.9999
+      Normal: 1/-0/0
+The value of indice[723] is : 8
+Vertice 723 :1/-1/-1
+      Texture: 0.9999/0.9999
+      Normal: 1/-0/0
+The value of indice[726] is : 5
+Vertice 726 :0.999999/1/1
+      Texture: 0.0001/0.000100017
+      Normal: 1/-0/0
+The value of indice[729] is : 19
+Vertice 729 :0.999999/1/1
+      Texture: 0.9999/0.000100017
+      Normal: -0/-0/1
+The value of indice[732] is : 6
+Vertice 732 :-1/1/1
+      Texture: 0.0001/0.000100017
+      Normal: -0/-0/1
+The value of indice[735] is : 16
+Vertice 735 :-1/-1/1
+      Texture: 0.0001/0.9999
+      Normal: -0/-0/1
+The value of indice[738] is : 21
+Vertice 738 :-1/1/1
+      Texture: 0.0001/0.9999
+      Normal: -1/-0/-0
+The value of indice[741] is : 7
+Vertice 741 :-1/1/-1
+      Texture: 0.9999/0.9999
+      Normal: -1/-0/-0
+The value of indice[744] is : 12
+Vertice 744 :-1/-1/-1
+      Texture: 0.9999/0.000100017
+      Normal: -1/-0/-0
+The value of indice[747] is : 23
+Vertice 747 :-1/1/-1
+      Texture: 0.0001/0.9999
+      Normal: 0/0/-1
+The value of indice[750] is : 15
+Vertice 750 :1/1/-0.999999
+      Texture: 0.9999/0.9999
+      Normal: 0/0/-1
+The value of indice[753] is : 13
+Vertice 753 :-1/-1/-1
+      Texture: 0.0001/0.000100017
+      Normal: 0/0/-1
+The value of indice[756] is : 29
+Vertice 756 :0.817221/1.09572/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[759] is : 25
+Vertice 759 :0.817221/0.889117/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[762] is : 24
+Vertice 762 :0.817221/0.889117/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[765] is : 36
+Vertice 765 :0.817221/0.889117/-1.0994
+      Texture: 0.443098/0.501914
+      Normal: 0/0/-1
+The value of indice[768] is : 34
+Vertice 768 :0.817221/1.09572/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[771] is : 26
+Vertice 771 :1.04823/0.889117/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[774] is : 42
+Vertice 774 :1.04823/0.889117/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[777] is : 40
+Vertice 777 :1.04823/1.09572/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[780] is : 27
+Vertice 780 :1.04823/0.889117/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[783] is : 46
+Vertice 783 :1.04823/0.889117/1.0994
+      Texture: 0.546766/0.594631
+      Normal: -0/-0/1
+The value of indice[786] is : 44
+Vertice 786 :1.04823/1.09572/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[789] is : 38
+Vertice 789 :0.817221/0.889117/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[792] is : 47
+Vertice 792 :1.04823/0.889117/1.0994
+      Texture: 3.2e-05/0.894917
+      Normal: 0/-1/0
+The value of indice[795] is : 39
+Vertice 795 :0.817221/0.889117/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[798] is : 43
+Vertice 798 :1.04823/0.889117/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[801] is : 33
+Vertice 801 :0.817221/1.09572/1.0994
+      Texture: 3.2e-05/0.894913
+      Normal: -0/1/0
+The value of indice[804] is : 45
+Vertice 804 :1.04823/1.09572/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[807] is : 35
+Vertice 807 :0.817221/1.09572/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[810] is : 53
+Vertice 810 :-1.09955/1.09572/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[813] is : 49
+Vertice 813 :-1.09955/0.889117/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[816] is : 48
+Vertice 816 :-1.09955/0.889117/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[819] is : 60
+Vertice 819 :-1.09955/0.889117/-1.0994
+      Texture: 0.443098/0.501914
+      Normal: 0/0/-1
+The value of indice[822] is : 58
+Vertice 822 :-1.09955/1.09572/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[825] is : 50
+Vertice 825 :-0.86854/0.889117/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[828] is : 66
+Vertice 828 :-0.86854/0.889117/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[831] is : 64
+Vertice 831 :-0.86854/1.09572/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[834] is : 51
+Vertice 834 :-0.86854/0.889117/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[837] is : 70
+Vertice 837 :-0.86854/0.889117/1.0994
+      Texture: 0.546766/0.594631
+      Normal: -0/-0/1
+The value of indice[840] is : 68
+Vertice 840 :-0.86854/1.09572/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[843] is : 62
+Vertice 843 :-1.09955/0.889117/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[846] is : 71
+Vertice 846 :-0.86854/0.889117/1.0994
+      Texture: 3.2e-05/0.894917
+      Normal: 0/-1/0
+The value of indice[849] is : 63
+Vertice 849 :-1.09955/0.889117/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[852] is : 67
+Vertice 852 :-0.86854/0.889117/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[855] is : 57
+Vertice 855 :-1.09955/1.09572/1.0994
+      Texture: 3.2e-05/0.894913
+      Normal: -0/1/0
+The value of indice[858] is : 69
+Vertice 858 :-0.86854/1.09572/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[861] is : 59
+Vertice 861 :-1.09955/1.09572/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[864] is : 77
+Vertice 864 :-1.09955/-0.857969/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[867] is : 73
+Vertice 867 :-1.09955/-1.06458/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[870] is : 72
+Vertice 870 :-1.09955/-1.06458/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[873] is : 84
+Vertice 873 :-1.09955/-1.06458/-1.0994
+      Texture: 0.443098/0.501914
+      Normal: 0/0/-1
+The value of indice[876] is : 82
+Vertice 876 :-1.09955/-0.857969/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[879] is : 74
+Vertice 879 :-0.86854/-1.06458/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[882] is : 90
+Vertice 882 :-0.86854/-1.06458/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[885] is : 88
+Vertice 885 :-0.86854/-0.857969/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[888] is : 75
+Vertice 888 :-0.86854/-1.06458/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[891] is : 94
+Vertice 891 :-0.86854/-1.06458/1.0994
+      Texture: 0.546766/0.594631
+      Normal: -0/-0/1
+The value of indice[894] is : 92
+Vertice 894 :-0.86854/-0.857969/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[897] is : 86
+Vertice 897 :-1.09955/-1.06458/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[900] is : 95
+Vertice 900 :-0.86854/-1.06458/1.0994
+      Texture: 3.2e-05/0.894917
+      Normal: 0/-1/0
+The value of indice[903] is : 87
+Vertice 903 :-1.09955/-1.06458/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[906] is : 91
+Vertice 906 :-0.86854/-1.06458/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[909] is : 81
+Vertice 909 :-1.09955/-0.857969/1.0994
+      Texture: 3.2e-05/0.894913
+      Normal: -0/1/0
+The value of indice[912] is : 93
+Vertice 912 :-0.86854/-0.857969/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[915] is : 83
+Vertice 915 :-1.09955/-0.857969/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[918] is : 101
+Vertice 918 :0.843538/-0.857969/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[921] is : 97
+Vertice 921 :0.843538/-1.06458/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[924] is : 96
+Vertice 924 :0.843538/-1.06458/1.0994
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[927] is : 108
+Vertice 927 :0.843538/-1.06458/-1.0994
+      Texture: 0.443098/0.501914
+      Normal: 0/0/-1
+The value of indice[930] is : 106
+Vertice 930 :0.843538/-0.857969/-1.0994
+      Texture: 0.443098/0.603696
+      Normal: 0/0/-1
+The value of indice[933] is : 98
+Vertice 933 :1.07455/-1.06458/-1.0994
+      Texture: 0.556902/0.501914
+      Normal: 0/0/-1
+The value of indice[936] is : 114
+Vertice 936 :1.07455/-1.06458/-1.0994
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[939] is : 112
+Vertice 939 :1.07455/-0.857969/-1.0994
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[942] is : 99
+Vertice 942 :1.07455/-1.06458/1.0994
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[945] is : 118
+Vertice 945 :1.07455/-1.06458/1.0994
+      Texture: 0.546766/0.594631
+      Normal: -0/-0/1
+The value of indice[948] is : 116
+Vertice 948 :1.07455/-0.857969/1.0994
+      Texture: 0.546766/0.510979
+      Normal: -0/-0/1
+The value of indice[951] is : 110
+Vertice 951 :0.843538/-1.06458/1.0994
+      Texture: 0.453234/0.594631
+      Normal: -0/-0/1
+The value of indice[954] is : 119
+Vertice 954 :1.07455/-1.06458/1.0994
+      Texture: 3.2e-05/0.894917
+      Normal: 0/-1/0
+The value of indice[957] is : 111
+Vertice 957 :0.843538/-1.06458/1.0994
+      Texture: 6.9e-05/0.999968
+      Normal: 0/-1/0
+The value of indice[960] is : 115
+Vertice 960 :1.07455/-1.06458/-1.0994
+      Texture: 0.999931/0.894572
+      Normal: 0/-1/0
+The value of indice[963] is : 105
+Vertice 963 :0.843538/-0.857969/1.0994
+      Texture: 3.2e-05/0.894913
+      Normal: -0/1/0
+The value of indice[966] is : 117
+Vertice 966 :1.07455/-0.857969/1.0994
+      Texture: 3.2e-05/0.999968
+      Normal: -0/1/0
+The value of indice[969] is : 107
+Vertice 969 :0.843538/-0.857969/-1.0994
+      Texture: 0.999968/0.894913
+      Normal: -0/1/0
+The value of indice[972] is : 125
+Vertice 972 :0.821949/-0.993528/-1.07482
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[975] is : 121
+Vertice 975 :0.821949/-0.993528/-0.868209
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[978] is : 120
+Vertice 978 :0.821949/1.00499/-0.868209
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[981] is : 132
+Vertice 981 :0.821949/-0.993528/-0.868209
+      Texture: 0.443098/0.501914
+      Normal: 0/-1/0
+The value of indice[984] is : 130
+Vertice 984 :0.821949/-0.993528/-1.07482
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[987] is : 122
+Vertice 987 :1.05296/-0.993528/-0.868209
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[990] is : 138
+Vertice 990 :1.05296/-0.993528/-0.868209
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[993] is : 136
+Vertice 993 :1.05296/-0.993528/-1.07482
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[996] is : 123
+Vertice 996 :1.05296/1.00499/-0.868209
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[999] is : 142
+Vertice 999 :1.05296/1.00499/-0.868209
+      Texture: 0.546766/0.594631
+      Normal: -0/1/0
+The value of indice[1002] is : 140
+Vertice 1002 :1.05296/1.00499/-1.07482
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[1005] is : 134
+Vertice 1005 :0.821949/1.00499/-0.868209
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[1008] is : 143
+Vertice 1008 :1.05296/1.00499/-0.868209
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1011] is : 135
+Vertice 1011 :0.821949/1.00499/-0.868209
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1014] is : 139
+Vertice 1014 :1.05296/-0.993528/-0.868209
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1017] is : 129
+Vertice 1017 :0.821949/1.00499/-1.07482
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1020] is : 141
+Vertice 1020 :1.05296/1.00499/-1.07482
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[1023] is : 131
+Vertice 1023 :0.821949/-0.993528/-1.07482
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1026] is : 149
+Vertice 1026 :-1.1038/-0.993528/-1.07482
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[1029] is : 145
+Vertice 1029 :-1.1038/-0.993528/-0.868209
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[1032] is : 144
+Vertice 1032 :-1.1038/1.00499/-0.868209
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[1035] is : 156
+Vertice 1035 :-1.1038/-0.993528/-0.868209
+      Texture: 0.443098/0.501914
+      Normal: 0/-1/0
+The value of indice[1038] is : 154
+Vertice 1038 :-1.1038/-0.993528/-1.07482
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[1041] is : 146
+Vertice 1041 :-0.872797/-0.993528/-0.868209
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[1044] is : 162
+Vertice 1044 :-0.872797/-0.993528/-0.868209
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[1047] is : 160
+Vertice 1047 :-0.872797/-0.993528/-1.07482
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[1050] is : 147
+Vertice 1050 :-0.872797/1.00499/-0.868209
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[1053] is : 166
+Vertice 1053 :-0.872797/1.00499/-0.868209
+      Texture: 0.546766/0.594631
+      Normal: -0/1/0
+The value of indice[1056] is : 164
+Vertice 1056 :-0.872797/1.00499/-1.07482
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[1059] is : 158
+Vertice 1059 :-1.1038/1.00499/-0.868209
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[1062] is : 167
+Vertice 1062 :-0.872797/1.00499/-0.868209
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1065] is : 159
+Vertice 1065 :-1.1038/1.00499/-0.868209
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1068] is : 163
+Vertice 1068 :-0.872797/-0.993528/-0.868209
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1071] is : 153
+Vertice 1071 :-1.1038/1.00499/-1.07482
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1074] is : 165
+Vertice 1074 :-0.872797/1.00499/-1.07482
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[1077] is : 155
+Vertice 1077 :-1.1038/-0.993528/-1.07482
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1080] is : 173
+Vertice 1080 :-1.1038/-0.993528/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[1083] is : 169
+Vertice 1083 :-1.1038/-0.993528/1.05924
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[1086] is : 168
+Vertice 1086 :-1.1038/1.00499/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[1089] is : 180
+Vertice 1089 :-1.1038/-0.993528/1.05924
+      Texture: 0.443098/0.501914
+      Normal: 0/-1/0
+The value of indice[1092] is : 178
+Vertice 1092 :-1.1038/-0.993528/0.852634
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[1095] is : 170
+Vertice 1095 :-0.872797/-0.993528/1.05924
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[1098] is : 186
+Vertice 1098 :-0.872797/-0.993528/1.05924
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[1101] is : 184
+Vertice 1101 :-0.872797/-0.993528/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[1104] is : 171
+Vertice 1104 :-0.872797/1.00499/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[1107] is : 190
+Vertice 1107 :-0.872797/1.00499/1.05924
+      Texture: 0.546766/0.594631
+      Normal: -0/1/0
+The value of indice[1110] is : 188
+Vertice 1110 :-0.872797/1.00499/0.852634
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[1113] is : 182
+Vertice 1113 :-1.1038/1.00499/1.05924
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[1116] is : 191
+Vertice 1116 :-0.872797/1.00499/1.05924
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1119] is : 183
+Vertice 1119 :-1.1038/1.00499/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1122] is : 187
+Vertice 1122 :-0.872797/-0.993528/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1125] is : 177
+Vertice 1125 :-1.1038/1.00499/0.852634
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1128] is : 189
+Vertice 1128 :-0.872797/1.00499/0.852634
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[1131] is : 179
+Vertice 1131 :-1.1038/-0.993528/0.852634
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1134] is : 197
+Vertice 1134 :0.856109/-0.993528/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -1/-0/-0
+The value of indice[1137] is : 193
+Vertice 1137 :0.856109/-0.993528/1.05924
+      Texture: 0.999969/0.906011
+      Normal: -1/-0/-0
+The value of indice[1140] is : 192
+Vertice 1140 :0.856109/1.00499/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -1/-0/-0
+The value of indice[1143] is : 204
+Vertice 1143 :0.856109/-0.993528/1.05924
+      Texture: 0.443098/0.501914
+      Normal: 0/-1/0
+The value of indice[1146] is : 202
+Vertice 1146 :0.856109/-0.993528/0.852634
+      Texture: 0.443098/0.603696
+      Normal: 0/-1/0
+The value of indice[1149] is : 194
+Vertice 1149 :1.08712/-0.993528/1.05924
+      Texture: 0.556902/0.501914
+      Normal: 0/-1/0
+The value of indice[1152] is : 210
+Vertice 1152 :1.08712/-0.993528/1.05924
+      Texture: 0.999969/0.999969
+      Normal: 1/-0/0
+The value of indice[1155] is : 208
+Vertice 1155 :1.08712/-0.993528/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 1/-0/0
+The value of indice[1158] is : 195
+Vertice 1158 :1.08712/1.00499/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 1/-0/0
+The value of indice[1161] is : 214
+Vertice 1161 :1.08712/1.00499/1.05924
+      Texture: 0.546766/0.594631
+      Normal: -0/1/0
+The value of indice[1164] is : 212
+Vertice 1164 :1.08712/1.00499/0.852634
+      Texture: 0.546766/0.510979
+      Normal: -0/1/0
+The value of indice[1167] is : 206
+Vertice 1167 :0.856109/1.00499/1.05924
+      Texture: 0.453234/0.594631
+      Normal: -0/1/0
+The value of indice[1170] is : 215
+Vertice 1170 :1.08712/1.00499/1.05924
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1173] is : 207
+Vertice 1173 :0.856109/1.00499/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1176] is : 211
+Vertice 1176 :1.08712/-0.993528/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1179] is : 201
+Vertice 1179 :0.856109/1.00499/0.852634
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1182] is : 213
+Vertice 1182 :1.08712/1.00499/0.852634
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[1185] is : 203
+Vertice 1185 :0.856109/-0.993528/0.852634
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1188] is : 221
+Vertice 1188 :-1.04188/1.1055/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[1191] is : 217
+Vertice 1191 :-1.04188/1.1055/1.05924
+      Texture: 0.999969/0.906011
+      Normal: -0/1/0
+The value of indice[1194] is : 216
+Vertice 1194 :0.95663/1.1055/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[1197] is : 222
+Vertice 1197 :-1.04188/0.874487/0.852634
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[1200] is : 218
+Vertice 1200 :-1.04188/0.874487/1.05924
+      Texture: 0.556902/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1203] is : 228
+Vertice 1203 :-1.04188/1.1055/1.05924
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1206] is : 234
+Vertice 1206 :-1.04188/0.874487/1.05924
+      Texture: 0.999969/0.999969
+      Normal: 0/-1/0
+The value of indice[1209] is : 232
+Vertice 1209 :-1.04188/0.874487/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[1212] is : 219
+Vertice 1212 :0.95663/0.874487/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[1215] is : 238
+Vertice 1215 :0.95663/0.874487/1.05924
+      Texture: 0.546766/0.594631
+      Normal: 1/-0/0
+The value of indice[1218] is : 236
+Vertice 1218 :0.95663/0.874487/0.852634
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[1221] is : 230
+Vertice 1221 :0.95663/1.1055/1.05924
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[1224] is : 239
+Vertice 1224 :0.95663/0.874487/1.05924
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1227] is : 231
+Vertice 1227 :0.95663/1.1055/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1230] is : 235
+Vertice 1230 :-1.04188/0.874487/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1233] is : 233
+Vertice 1233 :-1.04188/0.874487/0.852634
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[1236] is : 227
+Vertice 1236 :-1.04188/1.1055/0.852634
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1239] is : 225
+Vertice 1239 :0.95663/1.1055/0.852634
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1242] is : 245
+Vertice 1242 :-1.04188/-0.813067/0.852634
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[1245] is : 241
+Vertice 1245 :-1.04188/-0.813067/1.05924
+      Texture: 0.999969/0.906011
+      Normal: -0/1/0
+The value of indice[1248] is : 240
+Vertice 1248 :0.95663/-0.813067/1.05924
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[1251] is : 246
+Vertice 1251 :-1.04188/-1.04408/0.852634
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[1254] is : 242
+Vertice 1254 :-1.04188/-1.04408/1.05924
+      Texture: 0.556902/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1257] is : 252
+Vertice 1257 :-1.04188/-0.813067/1.05924
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1260] is : 258
+Vertice 1260 :-1.04188/-1.04408/1.05924
+      Texture: 0.999969/0.999969
+      Normal: 0/-1/0
+The value of indice[1263] is : 256
+Vertice 1263 :-1.04188/-1.04408/0.852634
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[1266] is : 243
+Vertice 1266 :0.95663/-1.04408/1.05924
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[1269] is : 262
+Vertice 1269 :0.95663/-1.04408/1.05924
+      Texture: 0.546766/0.594631
+      Normal: 1/-0/0
+The value of indice[1272] is : 260
+Vertice 1272 :0.95663/-1.04408/0.852634
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[1275] is : 254
+Vertice 1275 :0.95663/-0.813067/1.05924
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[1278] is : 263
+Vertice 1278 :0.95663/-1.04408/1.05924
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1281] is : 255
+Vertice 1281 :0.95663/-0.813067/1.05924
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1284] is : 259
+Vertice 1284 :-1.04188/-1.04408/1.05924
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1287] is : 257
+Vertice 1287 :-1.04188/-1.04408/0.852634
+      Texture: 0.999968/0.999967
+      Normal: 0/0/-1
+The value of indice[1290] is : 251
+Vertice 1290 :-1.04188/-0.813067/0.852634
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1293] is : 249
+Vertice 1293 :0.95663/-0.813067/0.852634
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1296] is : 269
+Vertice 1296 :-1.04188/-0.813067/-1.04513
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[1299] is : 265
+Vertice 1299 :-1.04188/-0.813067/-0.838523
+      Texture: 0.999969/0.906011
+      Normal: -0/1/0
+The value of indice[1302] is : 264
+Vertice 1302 :0.95663/-0.813067/-0.838523
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[1305] is : 270
+Vertice 1305 :-1.04188/-1.04408/-1.04513
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[1308] is : 266
+Vertice 1308 :-1.04188/-1.04408/-0.838523
+      Texture: 0.556902/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1311] is : 276
+Vertice 1311 :-1.04188/-0.813067/-0.838523
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1314] is : 282
+Vertice 1314 :-1.04188/-1.04408/-0.838523
+      Texture: 0.999969/0.999969
+      Normal: 0/-1/0
+The value of indice[1317] is : 280
+Vertice 1317 :-1.04188/-1.04408/-1.04513
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[1320] is : 267
+Vertice 1320 :0.95663/-1.04408/-0.838523
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[1323] is : 286
+Vertice 1323 :0.95663/-1.04408/-0.838523
+      Texture: 0.546766/0.594631
+      Normal: 1/-0/0
+The value of indice[1326] is : 284
+Vertice 1326 :0.95663/-1.04408/-1.04513
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[1329] is : 278
+Vertice 1329 :0.95663/-0.813067/-0.838523
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[1332] is : 287
+Vertice 1332 :0.95663/-1.04408/-0.838523
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1335] is : 279
+Vertice 1335 :0.95663/-0.813067/-0.838523
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1338] is : 283
+Vertice 1338 :-1.04188/-1.04408/-0.838523
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1341] is : 273
+Vertice 1341 :0.95663/-0.813067/-1.04513
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1344] is : 285
+Vertice 1344 :0.95663/-1.04408/-1.04513
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[1347] is : 275
+Vertice 1347 :-1.04188/-0.813067/-1.04513
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1
+The value of indice[1350] is : 293
+Vertice 1350 :-1.04188/1.07517/-1.04513
+      Texture: 0.999969/0.999969
+      Normal: -0/1/0
+The value of indice[1353] is : 289
+Vertice 1353 :-1.04188/1.07517/-0.838523
+      Texture: 0.999969/0.906011
+      Normal: -0/1/0
+The value of indice[1356] is : 288
+Vertice 1356 :0.95663/1.07517/-0.838523
+      Texture: 3.1e-05/0.906011
+      Normal: -0/1/0
+The value of indice[1359] is : 294
+Vertice 1359 :-1.04188/0.844157/-1.04513
+      Texture: 0.556902/0.603696
+      Normal: -1/1e-06/0
+The value of indice[1362] is : 290
+Vertice 1362 :-1.04188/0.844157/-0.838523
+      Texture: 0.556902/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1365] is : 300
+Vertice 1365 :-1.04188/1.07517/-0.838523
+      Texture: 0.443098/0.501914
+      Normal: -1/1e-06/0
+The value of indice[1368] is : 306
+Vertice 1368 :-1.04188/0.844157/-0.838523
+      Texture: 0.999969/0.999969
+      Normal: 0/-1/0
+The value of indice[1371] is : 304
+Vertice 1371 :-1.04188/0.844157/-1.04513
+      Texture: 0.999969/0.906011
+      Normal: 0/-1/0
+The value of indice[1374] is : 291
+Vertice 1374 :0.95663/0.844157/-0.838523
+      Texture: 3.1e-05/0.999969
+      Normal: 0/-1/0
+The value of indice[1377] is : 310
+Vertice 1377 :0.95663/0.844157/-0.838523
+      Texture: 0.546766/0.594631
+      Normal: 1/-0/0
+The value of indice[1380] is : 308
+Vertice 1380 :0.95663/0.844157/-1.04513
+      Texture: 0.546766/0.510979
+      Normal: 1/-0/0
+The value of indice[1383] is : 302
+Vertice 1383 :0.95663/1.07517/-0.838523
+      Texture: 0.453234/0.594631
+      Normal: 1/-0/0
+The value of indice[1386] is : 311
+Vertice 1386 :0.95663/0.844157/-0.838523
+      Texture: 3.2e-05/0.894917
+      Normal: -0/-0/1
+The value of indice[1389] is : 303
+Vertice 1389 :0.95663/1.07517/-0.838523
+      Texture: 6.9e-05/0.999968
+      Normal: -0/-0/1
+The value of indice[1392] is : 307
+Vertice 1392 :-1.04188/0.844157/-0.838523
+      Texture: 0.999931/0.894572
+      Normal: -0/-0/1
+The value of indice[1395] is : 297
+Vertice 1395 :0.95663/1.07517/-1.04513
+      Texture: 3.2e-05/0.894913
+      Normal: 0/0/-1
+The value of indice[1398] is : 309
+Vertice 1398 :0.95663/0.844157/-1.04513
+      Texture: 3.2e-05/0.999968
+      Normal: 0/0/-1
+The value of indice[1401] is : 299
+Vertice 1401 :-1.04188/1.07517/-1.04513
+      Texture: 0.999968/0.894913
+      Normal: 0/0/-1

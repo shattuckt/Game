@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\basics">
+      <UniqueIdentifier>{d42dc59c-13c3-493d-82bc-59dd890cd556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\toolbox">
+      <UniqueIdentifier>{c664d28f-79c4-44a3-81f2-5d32f204f1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\toolbox">
+      <UniqueIdentifier>{93013476-a9a8-4384-8a9d-a6cfdcecd3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\camera">
+      <UniqueIdentifier>{88065321-1271-4f57-ac2d-d817ac6431bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{53fe1f3e-10f0-42b4-980d-7911a7dc2c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{5cdb59d5-7f4e-4b2b-822a-cefab7397643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window-ing">
+      <UniqueIdentifier>{ad477415-e088-498b-8e2e-404256fb0c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window-ing">
+      <UniqueIdentifier>{1cccb099-6383-4088-bf5b-f561360531bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Headers">
+      <UniqueIdentifier>{b6615be4-069c-4351-b724-f4210f933d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{b5dfe949-da46-4c2e-8535-a4a4d14cea40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User Inputs">
+      <UniqueIdentifier>{947b373a-65c2-4c90-b711-6dcd0fd6fde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User Inputs">
+      <UniqueIdentifier>{70ddde50-059c-4f47-ac9c-082adab2a8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timing">
+      <UniqueIdentifier>{de821851-0f4c-4d3a-9c31-9a5e2a34a158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timing">
+      <UniqueIdentifier>{aebc0b3f-949a-4175-b736-518181e604bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State Control">
+      <UniqueIdentifier>{a8d1fd09-fb93-445b-9b6f-65fad69f5084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State Control">
+      <UniqueIdentifier>{8301b20e-43ce-4f8b-adc8-5e2e44a68615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Languages">
+      <UniqueIdentifier>{ee01d556-a4d4-4e9b-9bcf-4c943ce2f18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Languages">
+      <UniqueIdentifier>{e588c098-c90b-4dca-ad67-f46ad65bb6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{1724f025-5906-478f-be91-42c4fb139bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{1327b75b-fc49-47d1-9c85-c6e68dad2668}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Taingine2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserConfigurations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RollingAverage.cpp">
+      <Filter>Source Files\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineConfigs.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineSettings.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IconLoader.cpp">
+      <Filter>Source Files\Window-ing</Filter>
+    </ClCompile>
+    <ClCompile Include="GetWorkingDirectory.cpp">
+      <Filter>Source Files\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Header Files\External Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="RawImage.cpp">
+      <Filter>Source Files\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Window-ing</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync.cpp">
+      <Filter>Source Files\Window-ing</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowBuilder.cpp">
+      <Filter>Source Files\Window-ing</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\User Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\User Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\State Control</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisteredUsers.cpp">
+      <Filter>Source Files\State Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GameText.cpp">
+      <Filter>Source Files\Languages</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineFiles.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserConfigurations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RollingAverage.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamControls.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineConfigs.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSettings.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IconLoader.h">
+      <Filter>Header Files\Window-ing</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWorkingDirectory.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\External Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RawImage.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Window-ing</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSizeListener.h">
+      <Filter>Header Files\Window-ing</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync.h">
+      <Filter>Header Files\Window-ing</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowBuilder.h">
+      <Filter>Header Files\Window-ing</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\User Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\User Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseButton.h">
+      <Filter>Header Files\User Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\State Control</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisteredUsers.h">
+      <Filter>Header Files\State Control</Filter>
+    </ClInclude>
+    <ClInclude Include="InputUser.h">
+      <Filter>Header Files\State Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GameText.h">
+      <Filter>Header Files\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineFiles.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

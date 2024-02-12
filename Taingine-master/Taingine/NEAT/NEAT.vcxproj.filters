@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PrecompileHeaders">
+      <UniqueIdentifier>{b6ab0309-9fc1-41ac-b084-3deadb32e800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Organism">
+      <UniqueIdentifier>{1d1ae5c7-d020-4a8f-8b09-bbc0d0177d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Organism\Mutable">
+      <UniqueIdentifier>{4d2b1b9a-869d-470c-b7f2-a30cdf3e161a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Organism">
+      <UniqueIdentifier>{89f2a04c-e428-4fc5-ac1e-d13590103d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Organism\Mutable">
+      <UniqueIdentifier>{04333b70-d758-47c7-91a6-703f4e11bd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{503f9359-7724-41a6-8359-bee967791b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Organism\Network">
+      <UniqueIdentifier>{31d51710-8c66-4c01-9eec-697f0778d128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Organism\Phenotype">
+      <UniqueIdentifier>{0de90b0f-e28d-4478-8de7-8bee1f8ed0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{5842ac62-fb51-4d94-9c7e-b33a9d23ce49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Organism\Network">
+      <UniqueIdentifier>{4fc0a727-d073-43d4-bc96-d72bf30562d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Organism\Phenotype">
+      <UniqueIdentifier>{bff82501-04be-4c4f-8d28-2abdf5747f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{28f5e283-4a66-4f0f-9889-216548c42822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Neat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Population.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Species.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\PrecompileHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\PrecompileHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MutableGenome.h">
+      <Filter>Header Files\Organism\Mutable</Filter>
+    </ClInclude>
+    <ClInclude Include="MutableOrganism.h">
+      <Filter>Header Files\Organism\Mutable</Filter>
+    </ClInclude>
+    <ClInclude Include="Genome.h">
+      <Filter>Header Files\Organism</Filter>
+    </ClInclude>
+    <ClInclude Include="SynapseSortHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullFactoryReferenceException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractNeuron.h">
+      <Filter>Header Files\Organism\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="InputNeuron.h">
+      <Filter>Header Files\Organism\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputNeuron.h">
+      <Filter>Header Files\Organism\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron.h">
+      <Filter>Header Files\Organism\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Synapse.h">
+      <Filter>Header Files\Organism\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Phenotype.h">
+      <Filter>Header Files\Organism\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Organism.h">
+      <Filter>Header Files\Organism</Filter>
+    </ClInclude>
+    <ClInclude Include="Trait.h">
+      <Filter>Header Files\Organism\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MateHelper.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="IOutputNeuronFactory.h">
+      <Filter>Header Files\Organism\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Population.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Species.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MutableGenome.cpp">
+      <Filter>Source Files\Organism\Mutable</Filter>
+    </ClCompile>
+    <ClCompile Include="MutableOrganism.cpp">
+      <Filter>Source Files\Organism\Mutable</Filter>
+    </ClCompile>
+    <ClCompile Include="Genome.cpp">
+      <Filter>Source Files\Organism</Filter>
+    </ClCompile>
+    <ClCompile Include="Organism.cpp">
+      <Filter>Source Files\Organism</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header Files\PrecompileHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractNeuron.cpp">
+      <Filter>Source Files\Organism\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="InputNeuron.cpp">
+      <Filter>Source Files\Organism\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>Source Files\Organism\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Phenotype.cpp">
+      <Filter>Source Files\Organism\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Synapse.cpp">
+      <Filter>Source Files\Organism\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputNeuron.cpp">
+      <Filter>Source Files\Organism\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Trait.cpp">
+      <Filter>Source Files\Organism\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MateHelper.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Neat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

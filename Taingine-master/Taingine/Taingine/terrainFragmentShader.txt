@@ -1,0 +1,62 @@
+#version 150
+
+in vec2 pass_textureCoordinates;
+in vec3 surfaceNormal;
+in vec3 toLightVector[4]; //this must be the same size as the amount of lights you are using. 
+in vec3 toCameraVector;
+in float visibility;
+
+out vec4 out_Color;
+
+uniform sampler2D backgroundTexture;                                                            //i believe this is simple the default texture for the terrain 
+uniform sampler2D rTexture;                                                                     //the rgb textures are simple the other three textures we are using for the multitexture
+uniform sampler2D gTexture;
+uniform sampler2D bTexture;
+uniform sampler2D blendMap;
+
+uniform vec3 lightColour[4];                                                                    //this must be the same size as the amount of lights you are using
+uniform vec3 attenuation[4];                                                                    //this must be the same size as the amount of lights you are using
+uniform float shineDamper;
+uniform float reflectivity;
+uniform vec3 skyColour;
+
+void main(){
+
+	vec3 unitNormal = normalize(surfaceNormal);
+	vec3 unitVectorToCamera = normalize(toCameraVector);
+	
+	vec4 blendMapColour = texture(blendMap, pass_textureCoordinates);
+	float backTextureAmount = 1 - (blendMapColour.r + blendMapColour.g + blendMapColour.b);                       //how much of the background texture we want to render (when the blend map is black)
+	vec2 tiledCoords = pass_textureCoordinates * 40.0;                                                           //HOW MUCH QUALITY DO YOU WANT THE TILES TO HAVE? HIGHER = POORER PERFORMANCE 
+	vec4 backgroundTextureColour = texture(backgroundTexture, tiledCoords) * backTextureAmount; 
+	vec4 rTextureColour = texture(rTexture, tiledCoords) * blendMapColour.r;                                   //r meaning the first texture 
+	vec4 gTextureColour = texture(gTexture, tiledCoords) * blendMapColour.g;                                   //g meaning the second texture 
+	vec4 bTextureColour = texture(bTexture, tiledCoords) * blendMapColour.b;                                   //b meaning the third texture
+
+	vec4 totalColour = backgroundTextureColour + rTextureColour + gTextureColour + bTextureColour;
+
+	vec3 totalDiffuse = vec3(0.0);
+	vec3 totalSpecular = vec3(0.0);
+
+	                                                            //IF MORE THAN 4 LIGHTS ARE BEING USED, SORT THEM (MAYBE?) BY ORDER OF DISTANCE FROM THE PLAYER
+	                                                            //THEN, LOAD THE CLOSEST 4 LIGHTS
+	                                                            //but..... couldnt you just associate lights with entities? so if you are close to a certain point those lights load.
+	for(int i = 0; i<4; i++){                                                                                          //NOTE: CURRENTLY BOTH THIS SHADER AND THE TERRAIN SHADER LOAD LIGHTS REGARDLESS IF THEIR STATE HAS CHANGED OR NOT
+		float distance = length(toLightVector[i]);                                                                     //returns the distance to the light source (gotta do it for all lights..)
+		float attFactor = attenuation[i].x + (attenuation[i].y * distance) + (attenuation[i].z * distance * distance); //x, y, z are actually the three attenuation factors.. 
+		vec3 unitLightVector = normalize(toLightVector[i]);                                                            //toLightVector is the distance from the fragment to the light
+		float nDotl = dot(unitNormal, unitLightVector);
+		float brightness = max(nDotl,0.0);
+		vec3 lightDirection = -unitLightVector;                                                                        //The vector going from the light to the point is simply the opposite of the vector going from the point to the light
+		vec3 reflectedLightDirection = reflect(lightDirection, unitNormal);                                            //This will return the reflection vector of the vector going from the light to the point
+		float specularFactor = dot(reflectedLightDirection, unitVectorToCamera);                                      //This returns how bright the specular light without any dampening should be
+		specularFactor = max(specularFactor, 0.0);                                                                    //prevents the specularFactor from being lower than zero
+		float dampedFactor = pow(specularFactor, shineDamper);                                                        //raising specularFactor by the power of the shineDamper. This makes low specularFactors even lower, but doesnt impact higher specularFactors very much
+		totalDiffuse = totalDiffuse + (brightness * lightColour[i])/attFactor;                                        //dividing by the attFactor gives the dimming effect to the light
+		totalSpecular = totalSpecular + (dampedFactor * reflectivity * lightColour[i])/attFactor;                     //This is the final specular value
+	}
+	totalDiffuse = max(totalDiffuse, 0.4);                                                                             //This must be calculated at the end so everything emits its own light (if 0.0 was the lowest then things could render almost black
+	
+	out_Color = vec4(totalDiffuse, 1.0) * totalColour + vec4(totalSpecular, 1.0);
+	out_Color = mix(vec4(skyColour, 1.0), out_Color, visibility);                                                       //This takes in two colours and a value for how to mix them.. this mixes the sky color with the vertex color
+}

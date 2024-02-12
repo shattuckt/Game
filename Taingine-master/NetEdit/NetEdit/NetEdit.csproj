@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{875DAA7A-B9CD-4647-8307-0FB9F35F6298}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NetEdit</RootNamespace>
+    <AssemblyName>NetEdit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>networkJPG.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContextMenueStripRenderer.cs" />
+    <Compile Include="EditorHelper.cs" />
+    <Compile Include="EventArgsHub.cs" />
+    <Compile Include="Forms\AddSyanpseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddSyanpseForm.Designer.cs">
+      <DependentUpon>AddSyanpseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NeuronEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NeuronEditForm.Designer.cs">
+      <DependentUpon>NeuronEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaveChangesPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaveChangesPopup.Designer.cs">
+      <DependentUpon>SaveChangesPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventHub.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="Forms\OveriteFilePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OveriteFilePopup.Designer.cs">
+      <DependentUpon>OveriteFilePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SynapseEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SynapseEditForm.Designer.cs">
+      <DependentUpon>SynapseEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDepiction.cs" />
+    <Compile Include="UserControls\InformationBarUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\InformationBarUserControl.Designer.cs">
+      <DependentUpon>InformationBarUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MovableResizableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MovableResizableForm.Designer.cs">
+      <DependentUpon>MovableResizableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ResizableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ResizableForm.Designer.cs">
+      <DependentUpon>ResizableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Network.cs" />
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NeuronTrayUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\NeuronTrayUserControl.Designer.cs">
+      <DependentUpon>NeuronTrayUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NeuronUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\NeuronUserControl.Designer.cs">
+      <DependentUpon>NeuronUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PopupForm.Designer.cs">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\TabBarUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TabBarUserControl.Designer.cs">
+      <DependentUpon>TabBarUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trait.cs" />
+    <EmbeddedResource Include="Forms\AddSyanpseForm.resx">
+      <DependentUpon>AddSyanpseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NeuronEditForm.resx">
+      <DependentUpon>NeuronEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaveChangesPopup.resx">
+      <DependentUpon>SaveChangesPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OveriteFilePopup.resx">
+      <DependentUpon>OveriteFilePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SynapseEditForm.resx">
+      <DependentUpon>SynapseEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\InformationBarUserControl.resx">
+      <DependentUpon>InformationBarUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MovableResizableForm.resx">
+      <DependentUpon>MovableResizableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResizableForm.resx">
+      <DependentUpon>ResizableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\NeuronTrayUserControl.resx">
+      <DependentUpon>NeuronTrayUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\NeuronUserControl.resx">
+      <DependentUpon>NeuronUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PopupForm.resx">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\TabBarUserControl.resx">
+      <DependentUpon>TabBarUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResizeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="networkJPG.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

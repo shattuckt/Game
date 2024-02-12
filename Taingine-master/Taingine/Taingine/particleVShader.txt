@@ -1,0 +1,57 @@
+#version 140
+
+in vec2 position;
+
+in vec3 vertexPosition;
+in float scale;
+in vec4 texOffsets;
+in float blendFactor;
+
+out vec2 textureCoords1;
+out vec2 textureCoords2;
+out float blend;
+
+uniform mat4 projectionMatrix;
+uniform mat4 viewMatrix;
+uniform float numberOfRows;
+
+mat4 modelMatrix;
+
+void main(void){
+
+	vec2 textureCoords = position + vec2(0.5, 0.5);
+	textureCoords.y = 1.0 - textureCoords.y; //this 'flips' the texture coords
+
+	//The following three lines actually sets the texture offsets
+	textureCoords /= numberOfRows;
+	textureCoords1 = textureCoords + texOffsets.xy;
+	textureCoords2 = textureCoords + texOffsets.zw;
+	blend = blendFactor;
+
+
+
+
+	modelMatrix[0][0] = viewMatrix[0][0];
+	modelMatrix[0][1] = viewMatrix[1][0];
+	modelMatrix[0][2] = viewMatrix[2][0];
+	modelMatrix[0][3] = 0;
+	modelMatrix[1][0] = viewMatrix[0][1];
+	modelMatrix[1][1] = viewMatrix[1][1];
+	modelMatrix[1][2] = viewMatrix[2][1];
+	modelMatrix[1][3] = 0;
+	modelMatrix[2][0] = viewMatrix[0][2];
+	modelMatrix[2][1] = viewMatrix[1][2];
+	modelMatrix[2][2] = viewMatrix[2][2];
+	modelMatrix[2][3] = 0;
+	modelMatrix[3][0] = vertexPosition.x;
+	modelMatrix[3][1] = vertexPosition.y;
+	modelMatrix[3][2] = vertexPosition.z;
+	modelMatrix[3][3] = 1;
+
+	modelMatrix = modelMatrix * scale;
+
+	mat4 modelViewMatrix = viewMatrix * modelMatrix;
+
+	gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 0.0, 1.0);
+
+}
